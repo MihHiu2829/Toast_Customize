@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_face_smile"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="390dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face1"
+            android:id="@+id/ic_face1"
+            android:contentDescription="Boring"
+            android:layout_width="100dp"/>
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face2"
+            android:id="@+id/ic_face2"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="clown"
+            android:layout_width="100dp"/>
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face3"
+            android:id="@+id/ic_face3"
+            android:contentDescription="fancy"
+            android:layout_width="100dp"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face4"
+            android:id="@+id/ic_face4"
+            android:contentDescription="Boring"
+            android:layout_width="100dp"/>
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face5"
+            android:id="@+id/ic_face5"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="toxic"
+            android:layout_width="100dp"/>
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face6"
+            android:id="@+id/ic_face6"
+            android:contentDescription="angry"
+            android:layout_width="100dp"/>
+
+
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face7"
+            android:id="@+id/ic_face7"
+            android:contentDescription="surprised"
+            android:layout_width="100dp"/>
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face8"
+            android:id="@+id/ic_face8"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="Sick"
+            android:layout_width="100dp"/>
+        <ImageView android:layout_height="100dp"
+            android:background="@drawable/bg_radius"
+            android:src="@drawable/face9"
+            android:id="@+id/ic_face9"
+            android:contentDescription="Meme"
+            android:layout_width="100dp"/>
+    </TableRow>
+
+
+
+</LinearLayout>
